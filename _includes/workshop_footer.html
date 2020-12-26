@@ -4,9 +4,8 @@
 <footer>
   <hr/>
   <div class="row">
-    <div class="col-md-6" align="left">
-      <h4>
-	Copyright &copy; 2016–{{ 'now' | date: "%Y" }}
+    <div class="col-md-4" align="left">
+  	Copyright &copy; 2016–{{ 'now' | date: "%Y" }}
 	{% if site.carpentry == "swc" %}
 	<a href="{{ site.swc_site }}">Software Carpentry</a>
 	{% elsif site.carpentry == "dc" %}
@@ -14,14 +13,20 @@
 	{% elsif site.carpentry == "lc" %}
 	<a href="{{ site.lc_site }}">Library Carpentry</a>
 	{% elsif site.carpentry == "cp" %}
-	<a href="{{ site.carpentries_site }}">The Carpentries</a>
+  <a href="{{ site.carpentries_site }}">The Carpentries</a>
+  {% elsif site.carpentry == "bssw" %}
+	<a href="{{ site.ideas_project_site }}">The IDEAS Productivity Project</a>
 	{% endif %}
-      </h4>
-    </div>
-    <div class="col-md-6" align="right">
-      <h4>
-	<a href="mailto:{{ site.email }}">Contact The Carpentries</a>
-      </h4>
+      </div>
+    <div class="col-md-4" align="center">
+        Last update: {{ "now" | date: "%F" }}
+     </div>
+    <div class="col-md-4" align="right">
+  {% if site.carpentry == "bssw" %}
+  <a href="mailto:{{ site.email }}">Contact IDEAS</a>
+  {% else %}
+  <a href="mailto:{{ site.email }}">Contact The Carpentries</a>
+  {% endif %}
     </div>
   </div>
 </footer>

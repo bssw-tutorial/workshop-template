@@ -5,16 +5,17 @@
 # More detailed instructions are available at:
 # https://carpentries.github.io/workshop-template/customization/index.html
 
-# Which carpentry is this ("swc", "dc", "lc", or "cp")?
+# Which carpentry is this ("swc", "dc", "lc", "cp", or "bssw")?
 # swc: Software Carpentry
 #  dc: Data Carpentry
 #  lc: Library Carpentry
 #  cp: Carpentries (to use for instructor training for instance)
+#  bssw: Better Scientific Software
 # Note that for regular workshops, you should use:
 #  https://github.com/carpentries/workshop-template
 # and for instructor training events you should use:
 #  https://github.com/carpentries/training-template
-carpentry: "swc"
+carpentry: "bssw"
 
 # This option is currently only needed for
 # Data Carpentry and Software Carpentry workshops.
@@ -43,7 +44,8 @@ flavor: "FIXME"
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Workshop Title"
+#title: "Workshop Title"
+title: "Better Scientific Software Tutorial"
 
 
 #------------------------------------------------------------
@@ -61,7 +63,8 @@ repository: <USERNAME>/<PROJECT>
 # Email address, no mailto:
 # (Don't change this -- the contact address for your workshop will be set
 # in the index.md file)
-email: "team@carpentries.org"
+#email: "team@carpentries.org"
+email: "IDEASProductivity@gmail.org"
 
 # Sites.
 amy_site: "https://amy.carpentries.org"
@@ -79,6 +82,8 @@ template_repo: "https://github.com/carpentries/styles"
 training_site: "https://carpentries.github.io/instructor-training"
 workshop_repo: "https://github.com/carpentries/workshop-template"
 workshop_site: "https://carpentries.github.io/workshop-template"
+
+ideas_project_site: "https://ideas-productivity.org"
 
 # Surveys.
 pre_survey: "https://carpentries.typeform.com/to/wi32rS?slug="

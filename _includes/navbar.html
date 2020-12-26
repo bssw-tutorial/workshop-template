@@ -32,6 +32,10 @@
       <a href="{{ site.carpentries_site }}" class="pull-left">
         <img class="navbar-logo" src="{{ relative_root_path }}{% link /assets/img/cp-logo-blue.svg %}" alt="The Carpentries logo" />
       </a>
+      {% elsif site.carpentry == "bssw" %}
+      <a href="{{ site.ideas_project_site }}" class="pull-left">
+        <img class="navbar-logo" src="{{ relative_root_path }}{% link /assets/img/bssw-logo.png %}" alt="The Better Scientific Software logo" />
+      </a>
       {% endif %}
 
       {% comment %} Always show link to home page. {% endcomment %}
@@ -41,8 +45,17 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
 
-	{% comment %} Always show code of conduct. {% endcomment %}
+  {% comment %} Always show code of conduct, if available.
+                Conferences often have their own, which should override the general case.
+                BSSw doesn't have a general one yet, so in that case, skip it.
+  {% endcomment %}
+        {% if page.code_of_conduct_url %}
+        <li><a href="{{ page.code_of_conduct_url }}">Code of Conduct</a></li>
+        {% else %}
+        {% if site.carpentry != "bssw" %}
         <li><a href="{{ relative_root_path }}{% link CODE_OF_CONDUCT.md %}">Code of Conduct</a></li>
+        {% endif %}
+        {% endif %}
 
         {% if site.kind == "lesson" %}
 	{% comment %} Show setup instructions. {% endcomment %}

@@ -3,21 +3,48 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "FIXME"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
+#venue: "FIXME"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+#address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+#country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
+#language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
+#latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
+#longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+#humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+#humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+#startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+#enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+#instructor: ["instructor one", "instructor two"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+#helper: ["helper one", "helper two"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+#email: ["first@example.org","second@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+#collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+#eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+#in_conference: false  # Event is being held as part of a larger conference, which handles registration, online connection, etc. (false or true). If true, venue is presumed to be the conference name
+#conference_url: "FIXME"  # URL associated with the overall conference venue.  Only used if in_conference is true
+#code_of_conduct_url:     # URL for the applicable Code of Conduct.  Leave empty if there isn't one.
+#code_of_conduct_report:  # URL to report violation of the Code of Conduct. Leave empty if there isn't one.
+#presentation_url:        # URL to the latest version of the presentation slides.  Usually a DOI reference.  Leave empty if there isn't one.
+#evaluation_form:         # URL for the evaluation form, typically provided by the conference organizers
+venue: "Supercomputing 2020 (SC20)"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["instructor one", "instructor two"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["helper one", "helper two"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["first@example.org","second@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+humandate: "10 November 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "2:30pm-6:30pm EST"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2020-11-10      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2020-11-10        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["David E. Bernholdt", "Anshu Dubey", "Patricia Grubel", "Rinku Gupta"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Deborah Stevens"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["bssw-tutorial@lists.mcs.anl.gov"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+in_conference: true  # Event is being held as part of a larger conference, which handles registration, online connection, etc. (false or true). If true, venue is presumed to be the conference name
+conference_url: "https://sc20.supercomputing.org/"  # URL associated with the overall conference venue.  Only used if in_conference is true
+code_of_conduct_url: "https://sc20.supercomputing.org/attend/code-of-conduct/"   # URL for the applicable Code of Conduct.  Leave empty if there isn't one.
+code_of_conduct_report: "https://sc20.supercomputing.org/contact-us/?topic=Code%20of%20Conduct" # URL to report violation of the Code of Conduct. Leave empty if there isn't one.
+presentation_url: "https://doi.org/10.6084/m9.figshare.12994376"      # URL to the latest version of the presentation slides.  Usually a DOI reference.  Leave empty if there isn't one.
+evaluation_form: "https://submissions.supercomputing.org/?page=Submit&id=TutorialEvaluation&site=sc20"       # URL for the evaluation form, typically provided by the conference organizers
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -112,6 +139,8 @@ the pitch.
 {% include dc/intro.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/intro.html %}
+{% elsif site.carpentry == "bssw" %}
+{% include bssw/intro.html %}
 {% endif %}
 
 {% comment %}
@@ -126,6 +155,8 @@ workshop is only open to people from a particular institution.
 {% include dc/who.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
+{% elsif site.carpentry == "bssw" %}
+{% include bssw/who.html %}
 {% endif %}
 
 {% comment %}
@@ -161,10 +192,18 @@ address.
   the instructor will pass it on to you before the workshop.
 </p>
 {% elsif online == "true_private" %}
+{% if page.in_conference %}
+<p id="where">
+  <strong>Where:</strong> This training will take place online.
+  Connection information will be provided by the conference organizers
+  in conjunction with your registration.
+</p>
+{% else %}  
 <p id="where">
   <strong>Where:</strong> This training will take place online.
   The instructors will provide you with the information you will need to connect to this meeting.
 </p>
+{% endif %}
 {% endif %}
 
 {% comment %}
@@ -185,6 +224,13 @@ SPECIAL REQUIREMENTS
 
 Modify the block below if there are any special requirements.
 {% endcomment %}
+{% if site.carpentry == "bssw" %}
+<p id="requirements">
+  <strong>Requirements:</strong>
+  There are no special requirements for participation in the lecture portion of the tutorial.
+  However there are some requirements for the optional hands-on activities accompanying the tutorial (listed <a href="#setup">below</a>)
+</p>
+{% else %}
 <p id="requirements">
   <strong>Requirements:</strong>
   {% if online == "false" %}
@@ -196,6 +242,7 @@ Modify the block below if there are any special requirements.
   {% endif %}
   They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
+{% endif %}
 
 {% comment %}
 ACCESSIBILITY
@@ -203,6 +250,7 @@ ACCESSIBILITY
 Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
+{% if site.carpentry != "bssw" %}
 <p id="accessibility">
   <strong>Accessibility:</strong>
 {% if online == "false" %}
@@ -227,6 +275,7 @@ special instructions.
   anything we can do to make this workshop more accessible to you.
 </p>
 {% endif %}
+{% endif%}
 
 {% comment %}
 CONTACT EMAIL ADDRESS
@@ -253,11 +302,13 @@ Display the contact email address set in the configuration file.
   for more information.
 </p>
 
+{% if site.carpentry != "bssw" %}
 <p id="roles">
   <strong>Roles:</strong>
   To learn more about the roles at the workshop (who will be doing what),
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
+{% endif %}
 
 {% comment %}
 WHO CAN ATTEND?
@@ -279,17 +330,45 @@ Edit the text to match who can attend the workshop. For instance:
     This workshop is open to ....
 </p>
 {% endcomment %}
+{% if page.in_conference %}
+<p id="who-can-attend">
+    <strong>Who can attend?:</strong>
+    This tutorial is part of the <a href="{{ page.conference_url }}">{{ page.venue }}</a> conference.  
+    Conference registration is required to participate.
+</p>
+{% endif %}
 
 <hr/>
 
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
+
+{% if page.code_of_conduct_url %}
+<h2 id="code-of-conduct">Code of Conduct</h2>
+
+<p>
+Everyone who participates in this tutorial is required to conform to the 
+<strong><a href="{{ page.code_of_conduct_url }}">Code of Conduct</a></strong>. This document also outlines how to report an incident if needed.
+</p>
+
+{% if page.code_of_conduct_report %}
+<p class="text-center">
+  <a href="{{ page.code_of_conduct_report }}">
+    <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
+  </a>
+</p>
+<hr/>
+{% endif %}
+{% else %}
+{% if site.carpentry != "bssw" %}
 <h2 id="code-of-conduct">Code of Conduct</h2>
 
 <p>
 Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
 </p>
+
+
 
 <p class="text-center">
   <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
@@ -297,7 +376,8 @@ Everyone who participates in Carpentries activities is required to conform to th
   </a>
 </p>
 <hr/>
-
+{% endif %}
+{% endif %}
 
 {% comment %}
 Collaborative Notes
@@ -325,13 +405,37 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
+{% if site.carpentry == "bssw" %}
+{% if page.evaluation_form %}
+<h2 id="surveys">Surveys</h2>
+<p>
+  Your feedback is very important to us{% if page.in_conference %} and to the conference organizers{% endif %}.
+  Please complete the <strong><a href="{{ page.evaluation_form }}">evaluation form</a></strong>.
+  </p>
+
+<hr/>
+{% endif %}
+{% else %}
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 
 <hr/>
+{% endif %}
 
+{% comment %}
+PRESENTATION SLIDES
+
+This is used in bssw to point to the latest versions of the slides.
+{% endcomment %}
+
+{% if site.carpentry == "bssw" %}
+<h2 id="presentation-slides">Presentation Slides</h2>
+
+{% include bssw/presentations.html %}
+<hr/>
+{% endif %}
 
 {% comment %}
 SCHEDULE
@@ -363,6 +467,8 @@ of code below the Schedule `<h2>` header below with
 {% include dc/schedule.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/schedule.html %}
+{% elsif site.carpentry == "bssw" %}
+{% include bssw/schedule.html %}
 {% endif %}
 
 <hr/>
@@ -380,6 +486,7 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
+{% if site.carpentry != "bssw" %}
 <h2 id="setup">Setup</h2>
 
 <p>
@@ -426,4 +533,30 @@ during the workshop.
 {% include dc/setup.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
+{% elsif site.carpentry == "bssw" %}
+{% include bssw/setup.html %}
+{% endif %}
+{% endif %}
+
+{% comment %}
+FOLLOWUP
+
+In some cases, it may be appropriate to suggest ways to follow up.
+{% endcomment %}
+
+{% if site.carpentry == "bssw" %}
+<h2 id="followup">Followup</h2>
+{% include bssw/followup.html %}
+<hr/>
+{% endif %}
+
+{% comment %}
+ACKNOWLEDGEMENTS
+
+In some cases, it may be appropriate to include acknowledgements of sponsors.
+{% endcomment %}
+
+{% if site.carpentry == "bssw" %}
+<h2 id="acknowledgements">Acknowledgements</h2>
+{% include bssw/acknowledgements.html %}
 {% endif %}

@@ -1,0 +1,31 @@
+{% if page.presentation_url %}
+<p>
+    The latest version of the slides will always be available at
+    <strong><a href="{{ page.presentation_url }}">{{ page.presentation_url }}</a></strong>.<br/>
+    Note that these files may include additional slides that will not be discussed during the tutorial, but questions are welcome.
+</p>
+
+{% comment %}
+ERRATA
+
+If the latest (archival) version is different from the slides that may be distributed by the conference organizers,
+It may be desirable to provide some notes about the changes.  Modify as necessary.  Move the endcomment tag to the end
+if you do not want to show the Errata.
+{% endcomment %}
+<p>
+    <strong>Errata:</strong>
+    (References are to versions of the FigShare DOI. The unversioned link above always retrieves the latest. Specific older versions are available if you dig into the interface.)
+</p>
+<ul>
+    <li>v3: Updates to intro slides (module 00) with adjustments for the event platform and a list of additional software-related events at SC20.</li>
+    <li>v2: Corrected “License, Citation, and Acknowledgements” slides in modules 02 and 05.</li>
+    <li>v1: Same as distributed through SC20.</li>
+</ul>
+
+{% else %}
+<p>
+    When ready, the presentation slides will be made available at an archival location.
+</p>
+{% endif %}
+
+
