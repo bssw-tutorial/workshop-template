@@ -64,7 +64,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 For a workshop please delete the following block until the next dashed-line
 {% endcomment %}
 
-
 <div class="alert alert-danger">
 This is the workshop template. Delete these lines and use it to
 {% if site.carpentry == "bssw" %}
@@ -490,9 +489,15 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
-{% if site.carpentry != "bssw" %}
 <h2 id="setup">Setup</h2>
 
+{% if site.carpentry == "bssw" %}
+<p>
+  If you want to try the hands-on activities associated with the tutorial, you will need
+  access to the services and software described below.
+  In addition, you will need an up-to-date web browser and a text editor.
+</p>
+{% else %}
 <p>
   To participate in a
   {% if site.carpentry == "swc" %}
@@ -511,6 +516,7 @@ please preview your site before committing, and make sure to run
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+{% endif %}
 
 {% comment %}
 For online workshops, the section below provides:
@@ -540,7 +546,7 @@ during the workshop.
 {% elsif site.carpentry == "bssw" %}
 {% include bssw/setup.html %}
 {% endif %}
-{% endif %}
+<hr/>
 
 {% comment %}
 FOLLOWUP
